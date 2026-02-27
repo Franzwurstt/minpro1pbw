@@ -1,0 +1,81 @@
+/* Warna Custom */
+.profile-img-large {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 180px;
+    border: 2px solid rgb(255, 248, 248);
+}
+
+@media (max-width: 768px) {
+    .hero {
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .profile-img-large {
+        margin-top: 30px;
+        width: 220px;
+        height: 220px;
+    }
+}
+#about h4 {
+    border-bottom: 2px solid #0a1f44;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.about-box {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    border-left: 5px solid #0a1f44;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.timeline {
+    list-style: none;
+    padding-left: 0;
+}
+
+.timeline li {
+    margin-bottom: 15px;
+    padding-left: 15px;
+    border-left: 3px solid #0a1f44;
+}
+
+.bg-navy {
+    background-color: #0a1f44 !important;
+}
+
+.btn-navy {
+    background-color: #0a1f44;
+    color: white;
+    border: none;
+}
+
+.btn-navy:hover {
+    background-color: #132f63;
+    color: white;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(to right, #0a1f44, #132f63);
+    color: white;
+    padding-top: 80px;
+}
+
+h2 {
+    color: #0a1f44;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.progress-bar {
+    font-weight: bold;
+}
